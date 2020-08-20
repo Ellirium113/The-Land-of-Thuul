@@ -1,0 +1,15 @@
+//::///////////////////////////////////////////////
+//:: Name
+//:: FileName : rp_poxmer_inc
+//:: Copyright (c) 2001 Bioware Corp.
+//:://////////////////////////////////////////////
+/*
+Adjust the base price for a pack ox here.
+*/
+//:://////////////////////////////////////////////
+//:: Created By: Rogers Pessin
+//:: Created On: August 4, 2002
+//:://////////////////////////////////////////////
+
+int iPriceForOx = 5000; // Normal price for the ox
+int iDiscountOxPrice = 4000; // Discounted price for a cute female

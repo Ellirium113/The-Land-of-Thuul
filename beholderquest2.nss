@@ -1,0 +1,16 @@
+//::///////////////////////////////////////////////
+//:: FileName beholderquest2
+//:://////////////////////////////////////////////
+//:://////////////////////////////////////////////
+//:: Created By: Script Wizard
+//:: Created On: 6/5/2009 3:55:58 PM
+//:://////////////////////////////////////////////
+int StartingConditional()
+{
+
+    // Inspect local variables
+    if(!(GetLocalInt(GetPCSpeaker(), "beholderquest2") == 200))
+        return FALSE;
+
+    return TRUE;
+}

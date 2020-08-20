@@ -1,0 +1,15 @@
+//::///////////////////////////////////////////////
+//:: Name: pgs_rank_con_rankg1
+//:: Copyright (c) 2001 Bioware Corp.
+//:://////////////////////////////////////////////
+/*
+    Check if the player's rank is greater than 1.
+*/
+//:://////////////////////////////////////////////
+//:: Created By: Samius Maximus
+//:: Created On:
+//:://////////////////////////////////////////////
+int StartingConditional()
+{
+    return (GetLocalInt (GetPCSpeaker(), "Player_Guild_Rank") > 1);
+}

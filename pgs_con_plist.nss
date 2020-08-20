@@ -1,0 +1,18 @@
+//::///////////////////////////////////////////////
+//:: Name: pgs_con_plist
+//:: Copyright (c) 2001 Bioware Corp.
+//:://////////////////////////////////////////////
+/*
+    Determine whether or not the player has
+    access to the Player List.
+*/
+//:://////////////////////////////////////////////
+//:: Created By: Samius Maximus
+//:: Created On:
+//:://////////////////////////////////////////////
+#include "inc_gsystem_cnfg"
+
+int StartingConditional()
+{
+    return PGS_ENABLE_PLAYER_LIST;
+}

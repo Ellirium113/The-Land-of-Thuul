@@ -1,0 +1,18 @@
+//::///////////////////////////////////////////////
+//:: FileName chk_lvl_1to4
+//:://////////////////////////////////////////////
+//:://////////////////////////////////////////////
+//:: Created By: Script Wizard
+//:: Created On: 2003-02-17 14:32:44
+//:://////////////////////////////////////////////
+int StartingConditional()
+{
+
+
+    if (GetHitDice(GetPCSpeaker()) < 9)
+        return FALSE;
+    if (GetHitDice(GetPCSpeaker()) > 12)
+        return FALSE;
+
+    return TRUE;
+}

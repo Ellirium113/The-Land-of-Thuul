@@ -1,0 +1,18 @@
+//::///////////////////////////////////////////////
+//:: Name: pgs_mod_onenter
+//:: Copyright (c) 2001 Bioware Corp.
+//:://////////////////////////////////////////////
+/*
+    Module OnEnter event for the Player Guild
+    System (PGS).
+*/
+//:://////////////////////////////////////////////
+//:: Created By: Samius Maximus
+//:: Created On:
+//:://////////////////////////////////////////////
+#include "inc_gsystem_evnt"
+
+void main()
+{
+    PGSModuleClientEnterEvent();
+}
